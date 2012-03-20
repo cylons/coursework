@@ -24,5 +24,5 @@ YearsLeft = 45
 puts 'Chocolates to be eaten ' + (YearsLeft * DaysInYear * AvChocksPerDay).to_s
 
 # Persons age in years if they have lived for 1031 million seconds
-puts 'Age is ' + (1031000000.0 / (DaysInYear * HoursInDay * MinutesInHour * SecondsInMinute)).to_s
+puts 'Age is ' + (1031_000_000.0 / (DaysInYear * HoursInDay * MinutesInHour * SecondsInMinute)).to_s
 
